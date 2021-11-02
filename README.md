@@ -4,8 +4,8 @@ This repository contains WeTest Automated Testing sample test scripts and applic
 
 Right now, only Android supported, iOS is comming soon.
 
-- [apps](https://github.com/WeTestQuality/WeTest-Automated-Testing/apps) - contains official sample Apps which can be used to run your automated testing if you don't have one.
-- [samples](https://github.com/WeTestQuality/WeTest-Automated-Testing/samples) - contains official test samples with different testing frameworks and languages
+- [apps](https://github.com/WeTestQuality/WeTest-Automated-Testing/tree/main/apps) - contains official sample Apps which can be used to run your automated testing if you don't have one.
+- [samples](https://github.com/WeTestQuality/WeTest-Automated-Testing/tree/main/samples) - contains official test samples with different testing frameworks and languages
 
 For more details, please visit our official [website](https://www.wetest.net).
 
