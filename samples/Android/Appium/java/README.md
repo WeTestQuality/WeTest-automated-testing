@@ -1,6 +1,6 @@
 # Appium Java Samples
 
-This folder contains a JUnit sample which can be used to submit a test in WeTest Cloud. In order to know more details of using Appium to run your test in WeTest Automation, please view our online doc `https://iwiki.woa.com/pages/viewpage.action?pageId=162053150`.
+This folder contains a JUnit sample which can be used to submit a test in WeTest Cloud. In order to know more details of using Appium to run your test in WeTest Automation, please view our online doc `https://www.wetest.net/documents/detail/automation/w8qbgwEk`.
 
 ## Environment
 

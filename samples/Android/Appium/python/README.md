@@ -1,7 +1,7 @@
 # Appium Python Samples
 
 This folder contains a sample test case with Appium and Unittest. In order to know more details of using Appium to run your test
-in WeTest Automation, please view our online doc `https://iwiki.woa.com/pages/viewpage.action?pageId=162053150`.
+in WeTest Automation, please view our online doc `https://www.wetest.net/documents/detail/automation/w8qbgwEk`.
 
 ## Environment
 
