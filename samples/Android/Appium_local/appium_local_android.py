@@ -24,7 +24,6 @@ class WeTestAppiumTest(unittest.TestCase):
             'wetest_secret_key': '',  # This is available in the Accounts view
             'wetest_app_id': '',  # Specifies the Application file (.app/.apk) to be installed on the device.
             'wetest_device_id': 0,  # WeTest device id
-            'wetest_cloud_id': 0,  # WeTest device cloud id
             'wetest_project_id': '',  # WeTest project id
             'wetest_test_timeout': 360,  # The timeout for the whole test execution (in seconds)
         }
