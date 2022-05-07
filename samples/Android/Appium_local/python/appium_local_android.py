@@ -20,11 +20,11 @@ class WeTestAppiumTest(unittest.TestCase):
             # How long (in seconds) Appium will wait for a new command from the client before assuming the client quit and ending the session
 
             # WeTest capabilities
-            'wetest_secret_id': 'YourSecretId',  # This is available in the Accounts view
-            'wetest_secret_key': 'YourSecretKey',  # This is available in the Accounts view
-            'wetest_app_id': 'YourAppId',  # Specifies the Application file (.app/.apk) to be installed on the device.
-            'wetest_device_id': 0,  # WeTest device id（For free-trial, you have access to any device in Android Trial Cloud.）
-            'wetest_project_id': 'YourProjectId',  # WeTest project id
+            'wetest_secret_id': 'YourSecretId',  # Replace with your secret id. This is available in the Accounts view
+            'wetest_secret_key': 'YourSecretKey',  # Replace with your secret key. This is available in the Accounts view
+            'wetest_app_id': 'YourAppId',  # Replace with your app's WeTest app id. Specifies the Application file (.app/.apk) to be installed on the device.
+            'wetest_device_id': 0,  # WeTest device id（For free-trial, you have access to any device in Android Trial Cloud.） Replace it with the WeTest device id you chosen.
+            'wetest_project_id': 'YourProjectId',  # Replace with your WeTest project id.
             'wetest_test_timeout': 600,  # The timeout for the whole test execution (in seconds)
         }
 
