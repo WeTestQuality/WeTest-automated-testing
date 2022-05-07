@@ -25,7 +25,7 @@ class WeTestAppiumTest(unittest.TestCase):
             'wetest_app_id': 'YourAppId',  # Specifies the Application file (.app/.apk) to be installed on the device.
             'wetest_device_id': 0,  # WeTest device id（For free-trial, you have access to any device in Android Trial Cloud.）
             'wetest_project_id': 'YourProjectId',  # WeTest project id
-            'wetest_test_timeout': 360,  # The timeout for the whole test execution (in seconds)
+            'wetest_test_timeout': 600,  # The timeout for the whole test execution (in seconds)
         }
 
         # WeTest Appium WebDriver address
