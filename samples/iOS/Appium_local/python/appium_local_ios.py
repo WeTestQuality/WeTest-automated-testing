@@ -18,7 +18,7 @@ class WeTestAppiumTest(unittest.TestCase):
             'platformName': 'iOS',  # Which mobile OS platform to use
             'deviceName': 'iPhone',  # The kind of mobile device to use
             'automationName': 'XCUITest',  # Which automation engine to use
-            'newCommandTimeout': 60, # How long (in seconds) Appium will wait for a new command from the client before assuming the client quit and ending the session
+            'newCommandTimeout': 300, # How long (in seconds) Appium will wait for a new command from the client before assuming the client quit and ending the session
 
             'bundleId': 'com.your.app.bundle.id',  # Replace with your app bundle id.
 
@@ -28,7 +28,7 @@ class WeTestAppiumTest(unittest.TestCase):
             'wetest_app_id': 'YourWetestAppId', # Replace with your app's WeTest app id. Specifies the Application file (.apk /.aab) to be installed on the device.
             'wetest_device_id': 1234,  # Replace with the WeTest device id you chosen.
             'wetest_project_id': 'YourProjectId',  # Replace with your WeTest project id.
-            'wetest_test_timeout': 360,  # The timeout for the whole test execution (in seconds)
+            'wetest_test_timeout': 1200,  # The timeout for the whole test execution (in seconds)
         }
 
         # WeTest Appium WebDriver address

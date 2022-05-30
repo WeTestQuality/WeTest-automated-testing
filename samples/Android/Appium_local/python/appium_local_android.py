@@ -25,15 +25,17 @@ class WeTestAppiumTest(unittest.TestCase):
             'wetest_app_id': 'YourWetestAppId',  # Replace with your app's WeTest app id. Specifies the Application file (.apk /.aab) to be installed on the device.
             'wetest_device_id': 0,  # WeTest device id (For free-trial, you have access to any device in Android Trial Cloud.)  Replace it with the WeTest device id you chosen.
             'wetest_project_id': 'YourProjectId',  # Replace with your WeTest project id.
-            'wetest_test_timeout': 600,  # The timeout for the whole test execution (in seconds)
+            'wetest_test_timeout': 1200,  # The timeout for the whole test execution (in seconds)
         }
 
         # WeTest Appium WebDriver address
         # When running Appium locally, the web driver address is running on a localhost (http://localhost:4723/wd/hub).
         # When running the test from your local machine against a WeTest cloud device, you need to change the Appium server location.
-        print("WeTest WebDriver request initiated. Waiting for response, this typically takes a few mins")
+        print("Waiting for response, the process includes WebDriver and Device initialization，App installation, this "
+              "typically takes a few mins. Creating at", datetime.now())
         WeTestAppiumTest.driver = webdriver.Remote("https://api.paas.wetest.net/wd/hub", desired_caps)
-        print("Connecting to WeTest WebDriver successfully with Session ID:", WeTestAppiumTest.driver.session_id)
+        print("Connecting to WeTest WebDriver successfully with Session ID:", WeTestAppiumTest.driver.session_id,
+              ". Finished at ", datetime.now())
 
     @classmethod
     def tearDownClass(cls):
