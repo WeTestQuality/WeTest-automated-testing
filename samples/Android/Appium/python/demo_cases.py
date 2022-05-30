@@ -15,7 +15,7 @@ class WeTestAppiumTest(unittest.TestCase):
             'platformVersion': '',  # match all platforms
             'deviceName': '<unknown>',
             'newCommandTimeout': 600,
-            'automationName': 'UiAutomator1',
+            'automationName': 'UiAutomator2',
             'appPackage': os.getenv("CT_APP_PKG_NAME"),
             'appWaitPackage': os.getenv("CT_APP_PKG_NAME"),
             'appActivity': os.getenv("CT_APP_LAUNCH_ACTIVITY"),
@@ -57,7 +57,7 @@ class WeTestAppiumTest(unittest.TestCase):
     def test_failed(self):
         print('test failed .')
         assert 2 == 1 + 2
-    
+
     # your test cases end here
 
 
