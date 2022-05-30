@@ -34,8 +34,8 @@ class WeTestAppiumTest(unittest.TestCase):
         # WeTest Appium WebDriver address
         # When running Appium locally, the web driver address is running on a localhost (http://localhost:4723/wd/hub).
         # When running the test from your local machine against a WeTest cloud device, you need to change the Appium server location.
-        print("WeTest WebDriver request initiated. Waiting for response, this typically takes a few mins. Creating at",
-              datetime.now())
+        print("Waiting for response, the process includes WebDriver and Device initialization，App installation, this "
+              "typically takes a few mins. Creating at", datetime.now())
         WeTestAppiumTest.driver = webdriver.Remote("https://pre.api.paas.wetest.net/wd/hub", desired_caps)
         print("Connecting to WeTest WebDriver successfully with Session ID:", WeTestAppiumTest.driver.session_id,
               ". Finished at ", datetime.now())
