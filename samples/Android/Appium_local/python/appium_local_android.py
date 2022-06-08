@@ -4,6 +4,7 @@ import time
 import unittest
 
 from appium import webdriver
+from datetime import datetime
 
 
 class WeTestAppiumTest(unittest.TestCase):
