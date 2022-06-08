@@ -15,12 +15,11 @@ class WeTestAppiumTest(unittest.TestCase):
         desired_caps = {
 
             # Appium native capabilities
+            'bundleId': 'YouAppBundleID',  # Replace YouAppBundleID with your app bundle id(e.g. com.wetest.demo.db).
             'platformName': 'iOS',  # Which mobile OS platform to use
             'deviceName': 'iPhone',  # The kind of mobile device to use
             'automationName': 'XCUITest',  # Which automation engine to use
             'newCommandTimeout': 300, # How long (in seconds) Appium will wait for a new command from the client before assuming the client quit and ending the session
-
-            'bundleId': 'com.your.app.bundle.id',  # Replace with your app bundle id.
 
             # WeTest capabilities
             'wetest_secret_id': 'YourSecretId', # Replace with your secret id. This is available in the Accounts view.
@@ -29,6 +28,7 @@ class WeTestAppiumTest(unittest.TestCase):
             'wetest_device_id': 1234,  # Replace with the WeTest device id you chosen.
             'wetest_project_id': 'YourProjectId',  # Replace with your WeTest project id.
             'wetest_test_timeout': 1200,  # The timeout for the whole test execution (in seconds)
+            'wetest_ios_resign': True, # Indicate whether to resign the iOS app specified in wetest_app_id before installing it. If not specified, the default value is True.
         }
 
         # WeTest Appium WebDriver address
@@ -68,4 +68,3 @@ class WeTestAppiumTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
