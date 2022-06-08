@@ -36,7 +36,7 @@ class WeTestAppiumTest(unittest.TestCase):
         # When running the test from your local machine against a WeTest cloud device, you need to change the Appium server location.
         print("Waiting for response, the process includes WebDriver and Device initialization，App installation, this "
               "typically takes a few mins. Creating at", datetime.now())
-        WeTestAppiumTest.driver = webdriver.Remote("https://pre.api.paas.wetest.net/wd/hub", desired_caps)
+        WeTestAppiumTest.driver = webdriver.Remote("https://api.paas.wetest.net/wd/hub", desired_caps)
         print("Connecting to WeTest WebDriver successfully with Session ID:", WeTestAppiumTest.driver.session_id,
               ". Finished at ", datetime.now())
 
