@@ -16,5 +16,5 @@ This folder contains the following files:
 
 * `demo_cases.py` is the actual test cases written in Python with Unittest framework. This is just a template, you can download and insert your cases into it.
 * `runTest.sh`  is environment specific shell scripts which will be executed by WeTest Cloud when the test is started on some device. It is not necessary to change it.
-* `create-zip.sh` is a shell script used to package your test files into a zip file, then you are able to upload the zip file to WeTest Cloud and run your test.
-
+* `create-zip.sh` For Mac or Linux, is a shell script used to package your test files into a zip file, then you are able to upload the zip file to WeTest Cloud and run your test.
+* `create-zip.bat` For Windoes, is a bat script used to package your test files into a zip file, then you are able to upload the zip file to WeTest Cloud and run your test.
