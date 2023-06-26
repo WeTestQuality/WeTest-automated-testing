@@ -21,6 +21,7 @@ class WeTestAirTestDemo(unittest.TestCase):
         self.logger.info("=======end task=======")
 
     def setup_method(self, method):
+        self.logger = ctlog.logger.get_log_instance()
         self.logger.info("=======start App=======")
         clear_app(app_package)
         time.sleep(3)
